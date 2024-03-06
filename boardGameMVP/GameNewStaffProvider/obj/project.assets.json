@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "BoardGameModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/BoardGameModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BoardGameModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BoardGameModel/1.0.0": {
+      "type": "project",
+      "path": "../BoardGameModel/BoardGameModel.csproj",
+      "msbuildProject": "../BoardGameModel/BoardGameModel.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "BoardGameModel >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/atrybushnyi/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/atrybushnyi/workspace/boardGameMVP/GameNewStaffProvider/GameNewStaffProvider.csproj",
+      "projectName": "GameNewStaffProvider",
+      "projectPath": "/Users/atrybushnyi/workspace/boardGameMVP/GameNewStaffProvider/GameNewStaffProvider.csproj",
+      "packagesPath": "/Users/atrybushnyi/.nuget/packages/",
+      "outputPath": "/Users/atrybushnyi/workspace/boardGameMVP/GameNewStaffProvider/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/atrybushnyi/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/atrybushnyi/workspace/boardGameMVP/BoardGameModel/BoardGameModel.csproj": {
+              "projectPath": "/Users/atrybushnyi/workspace/boardGameMVP/BoardGameModel/BoardGameModel.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
